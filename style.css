@@ -69,7 +69,9 @@
     right: 50px;
     top: 0;
     padding: 12px 16px 12px 16px;
+    font-size: 15px;
   }
+
   
   .close:hover {
     background-color: #f44336;
@@ -103,6 +105,16 @@
     border-radius: 0;
     width: 75%;
     padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+
+  input.editField {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 0;
     float: left;
     font-size: 16px;
   }
