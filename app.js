@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const span = document.createElement("span");
     const removeBtn = document.createElement("span");
     const editBtn = document.createElement("span");
+   
 
     if (input.value == "") {
       alert("You have to type something!");
@@ -56,6 +57,14 @@ document.addEventListener("DOMContentLoaded", () => {
             editBtn.textContent = editIcon;
 
           }
+        }
+      });
+
+      ul.addEventListener('click', (e) => {
+        const checked = e.target;
+        const li = document.querySelector('li');
+        if(checked){
+          li.classList.toggle('checked');
         }
       });
     }
