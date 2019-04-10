@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const ul = document.getElementsByTagName("ul")[0];
     const li = document.createElement("li");
     const removeBtn = document.createElement("span");
-    const editBtn = document.createElement('button');
+    const editBtn = document.createElement('span');
 
     if (input.value == "") {
       alert("You have to type something!");
