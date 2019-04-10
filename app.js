@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const li = document.querySelector("li");
         ul.removeChild(li);
       });
+
+      
     }
   });
 });
